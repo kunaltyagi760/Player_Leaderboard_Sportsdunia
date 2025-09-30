@@ -23,6 +23,9 @@ Players earn points based on their actions, and the leaderboard shows the rankin
 
 This project requires setting up both **frontend** and **backend**. Follow the steps below to run the application.
 
+**Clone the repository**
+git clone https://github.com/kunaltyagi760/Player_Leaderboard_Sportsdunia.git
+
 ---
 
 ### Backend Setup
@@ -89,9 +92,6 @@ The frontend is built with **React Native** and **Expo**, and it fetches player 
 - Android Studio / Xcode (for emulators) or a physical device
 
 ### Steps to Run Frontend
-
-1. **Clone the repository**
-git clone https://github.com/kunaltyagi760/Player_Leaderboard_Sportsdunia.git
 cd Player_Leaderboard_Sportsdunia/frontend
 
 2. **Install dependencies**
