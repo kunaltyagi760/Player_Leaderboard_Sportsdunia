@@ -1,8 +1,7 @@
 import { Player } from '../types';
-require('dotenv').config();
 
 // Replace with your backend IP + port
-const API_BASE_URL = process.env.BACKEND_MACHINE_IP;
+const API_BASE_URL = "http://192.168.1.8:3000";
 
 export async function fetchLeaderboard(minScore: number): Promise<Player[]> {
   const url = `${API_BASE_URL}/leaderboard?minScore=${minScore}`;
